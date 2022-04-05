@@ -1,0 +1,19 @@
+###
+GET http://localhost:8000
+
+
+####
+GET http://localhost:8000/
+
+###
+POST http://localhost:8000/
+content-type: application/json
+
+{
+   "title":"modibo",
+   "body":"I am happy to see what you have ",
+   "postImage":"gsgsgsgsgsgsgsgsgs"
+}
+
+###
+DELETE http://localhost:8000/b2b62d29-9c28-4e72-b8d1-66c4d46e0488
